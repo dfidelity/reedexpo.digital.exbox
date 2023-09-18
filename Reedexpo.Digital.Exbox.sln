@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reedexpo.Digital.Exbox", "src\Reedexpo.Digital.Exbox\Reedexpo.Digital.Exbox.csproj", "{5BFF9BC9-A8C2-49DE-8FDC-CF825292D40A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{97D31FEA-FC7D-4908-A152-F0C6FFCEAFA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ED77EE65-5E2F-43A9-AFF4-93C975FD3DF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reedexpo.Digital.Exbox.Unit.Test", "test\Reedexpo.Digital.Exbox.Unit.Test\Reedexpo.Digital.Exbox.Unit.Test.csproj", "{4725813B-EECC-4B1D-97B5-D2B65ACC3A92}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Reedexpo.Digital.Exbox.Integration.Test", "test\Reedexpo.Digital.Exbox.Integration.Test\Reedexpo.Digital.Exbox.Integration.Test.njsproj", "{DAB659B8-9A95-469D-BEAC-D9FEF083AE73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Build", ".Build", "{156B0537-2FF7-4649-B808-8D7D467C0E0F}"
+	ProjectSection(SolutionItems) = preProject
+		Build\build.cake = Build\build.cake
+		Build\build.ps1 = Build\build.ps1
+		Build\build.sh = Build\build.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{EB301553-12E7-4327-AEFD-D0066C386E15}"
+	ProjectSection(SolutionItems) = preProject
+		Build\build.cake = Build\build.cake
+		Build\build.ps1 = Build\build.ps1
+		Build\build.sh = Build\build.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{9279F73F-B91A-4537-A4F0-07C8ED6D2096}"
+	ProjectSection(SolutionItems) = preProject
+		Deploy\build.cake = Deploy\build.cake
+		Deploy\build.ps1 = Deploy\build.ps1
+		Deploy\build.sh = Deploy\build.sh
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reedexpo.Digital.Exbox.Test.Shared", "test\Reedexpo.Digital.Exbox.Test.Shared\Reedexpo.Digital.Exbox.Test.Shared.csproj", "{0D540C2C-8374-40A0-A34C-DEBB7B9DA78F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reedexpo.Digital.Exbox.Repository.Integration.Test", "test\Reedexpo.Digital.Exbox.Repository.Integration.Test\Reedexpo.Digital.Exbox.Repository.Integration.Test.csproj", "{CC716351-A7D7-4CDB-A8F6-EB1C71B07609}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reedexpo.Digital.Exbox.FakeAuth", "test\Reedexpo.Digital.Exbox.FakeAuth\Reedexpo.Digital.Exbox.FakeAuth.csproj", "{BD3B84F1-8D77-4590-BF9B-A9E44C1A2C6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reedexpo.Digital.Exbox.API.Test", "test\Reedexpo.Digital.Exbox.API.Test\Reedexpo.Digital.Exbox.API.Test.csproj", "{83004EEA-9614-4338-8F23-EF5146476049}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BFF9BC9-A8C2-49DE-8FDC-CF825292D40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFF9BC9-A8C2-49DE-8FDC-CF825292D40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFF9BC9-A8C2-49DE-8FDC-CF825292D40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFF9BC9-A8C2-49DE-8FDC-CF825292D40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4725813B-EECC-4B1D-97B5-D2B65ACC3A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4725813B-EECC-4B1D-97B5-D2B65ACC3A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4725813B-EECC-4B1D-97B5-D2B65ACC3A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4725813B-EECC-4B1D-97B5-D2B65ACC3A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB659B8-9A95-469D-BEAC-D9FEF083AE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB659B8-9A95-469D-BEAC-D9FEF083AE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D540C2C-8374-40A0-A34C-DEBB7B9DA78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D540C2C-8374-40A0-A34C-DEBB7B9DA78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D540C2C-8374-40A0-A34C-DEBB7B9DA78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D540C2C-8374-40A0-A34C-DEBB7B9DA78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC716351-A7D7-4CDB-A8F6-EB1C71B07609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC716351-A7D7-4CDB-A8F6-EB1C71B07609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC716351-A7D7-4CDB-A8F6-EB1C71B07609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC716351-A7D7-4CDB-A8F6-EB1C71B07609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3B84F1-8D77-4590-BF9B-A9E44C1A2C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3B84F1-8D77-4590-BF9B-A9E44C1A2C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3B84F1-8D77-4590-BF9B-A9E44C1A2C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3B84F1-8D77-4590-BF9B-A9E44C1A2C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83004EEA-9614-4338-8F23-EF5146476049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83004EEA-9614-4338-8F23-EF5146476049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83004EEA-9614-4338-8F23-EF5146476049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83004EEA-9614-4338-8F23-EF5146476049}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BFF9BC9-A8C2-49DE-8FDC-CF825292D40A} = {97D31FEA-FC7D-4908-A152-F0C6FFCEAFA3}
+		{4725813B-EECC-4B1D-97B5-D2B65ACC3A92} = {ED77EE65-5E2F-43A9-AFF4-93C975FD3DF4}
+		{DAB659B8-9A95-469D-BEAC-D9FEF083AE73} = {ED77EE65-5E2F-43A9-AFF4-93C975FD3DF4}
+		{EB301553-12E7-4327-AEFD-D0066C386E15} = {156B0537-2FF7-4649-B808-8D7D467C0E0F}
+		{9279F73F-B91A-4537-A4F0-07C8ED6D2096} = {156B0537-2FF7-4649-B808-8D7D467C0E0F}
+		{0D540C2C-8374-40A0-A34C-DEBB7B9DA78F} = {ED77EE65-5E2F-43A9-AFF4-93C975FD3DF4}
+		{CC716351-A7D7-4CDB-A8F6-EB1C71B07609} = {ED77EE65-5E2F-43A9-AFF4-93C975FD3DF4}
+		{BD3B84F1-8D77-4590-BF9B-A9E44C1A2C6F} = {ED77EE65-5E2F-43A9-AFF4-93C975FD3DF4}
+		{83004EEA-9614-4338-8F23-EF5146476049} = {ED77EE65-5E2F-43A9-AFF4-93C975FD3DF4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20559CBB-272F-4007-953D-AF62AB6D9FBE}
+	EndGlobalSection
+EndGlobal
